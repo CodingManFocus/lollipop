@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "express": "^5.1.0",
+    "yaml": "^2.8.1",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "dev": "tsc && tsc-alias && node dist/Main.js",
+    "build": "tsc && tsc-alias",
+    "start": "node dist/Main.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.6.2"
+  }
+}
