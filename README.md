@@ -59,8 +59,8 @@ Done! You are now ready to build the MCP server!
 In `src/config/config.ts`, You can modify the MCP server-related config
 `src/config/config.ts`에서 MCP 서버 관련 config 수정이 가능합니다
 
-```json
-{
+```ts
+return {
     name: "lollipop",
     version: "1.0.0",
     serverPort: 3000
